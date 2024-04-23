@@ -35,3 +35,4 @@ class QuestionPage(MainPage):
     @allure.step('Нажимаем на на логотип "Яндекс"')
     def logo_yandex_click(self):
         self.find_element(*HomePage.logo_dzen).click()
+        #

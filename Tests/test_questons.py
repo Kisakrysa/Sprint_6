@@ -29,3 +29,4 @@ class TestQuestions:
         questions_page.wait(HomePage.question)
         actual_answer = questions_page.get_text_of_answer_by_index(answer_index)
         assert actual_answer == expected_answer
+#

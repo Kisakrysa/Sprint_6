@@ -39,3 +39,4 @@ class MainPage:
     def switch_to(self, window_index):
         all_windows = self.browser.window_handles
         self.browser.switch_to.window(all_windows[window_index])
+        #
