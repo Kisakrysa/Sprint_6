@@ -23,3 +23,4 @@ class TestLogoJump:
         jump_from_page.logo_yandex_click()
         jump_from_page.switch_to(1)
         assert jump_from_page.get_current_url() == URL_DZEN
+        #

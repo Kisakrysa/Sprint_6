@@ -93,3 +93,4 @@ class OrderPages(MainPage):
         self.color_order_click()
         self.button_click()
         self.button_yes_order_click()
+        #
