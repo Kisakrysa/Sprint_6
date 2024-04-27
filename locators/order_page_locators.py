@@ -1,13 +1,7 @@
 from selenium.webdriver.common.by import By
 
-class HomePage:
-    cookie = (By.ID, 'rcc-confirm-button')
-    question = (By.CLASS_NAME, 'accordion__item')
-    answer = (By.CSS_SELECTOR, '.accordion__panel p')
-    logo = (By.CLASS_NAME, 'Header_LogoScooter__3lsAR')
-    logo_dzen = (By.CLASS_NAME, 'Header_LogoYandex__3TSOI')
-class OrderPage:
-    # Локаторы элементов на странице заполнени формы заказа
+
+class OrderPageLocators:
     cookie = (By.ID, 'rcc-confirm-button')
     button_order = (By.CLASS_NAME, 'Button_Button__ra12g')
     name_order = (By.CSS_SELECTOR, '[placeholder="* Имя"]')
